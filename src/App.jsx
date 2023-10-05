@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const apiUrl = 'https://jsonplaceholder.typicode.com/todos'; // Replace with the actual API URL
+const apiUrl = 'https://jsonplaceholder.typicode.com/todos'; 
 
 const App = () => {
   const [items, setItems] = useState([]);
